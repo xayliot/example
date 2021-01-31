@@ -1,0 +1,88 @@
+.Logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 2%;
+    margin: 5px;
+}
+
+
+body {
+    background-image: url(../img/%D1%84%D0%BE%D0%BD.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contener {
+    display: flex;
+    background: #1D262D;
+    border: 1px solid #B5B7BA;
+    box-sizing: border-box;
+
+}
+
+.about_me {
+    font-size: 50px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin: 5px;
+    height: 158px;
+}
+
+
+.about_me a {
+    text-decoration: none;
+    color: #EF5734;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px
+}
+
+.Vk {
+    font-size: 50px;
+    padding-left: 40px;
+    margin: 5px;
+    height: 158px;
+}
+
+.Vk a {
+    text-decoration: none;
+    color: #EF5734;
+}
+
+.content {}
+
+.content .vk {}
+
+.content a {
+    text-decoration: none;
+    color: azure;
+    font-size: 50px;
+
+}
+
+
+
+.list-group {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.menu-body {
+    display: none;
+}
+
+.list-group {
+
+    border: 3px solid #B5B7BA;
+    font-size: 45px;
+}
+
+.list-content {
+    background: #1D262D;
+    border: none;
+    padding: 10px;
+}

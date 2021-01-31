@@ -1,0 +1,87 @@
+.Logo {}
+
+.Logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 2%;
+    margin: 5px;
+}
+
+
+body {
+    background-image: url(../img/%D1%84%D0%BE%D0%BD.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .contener {
+    display: flex;
+
+    background: #1D262D;
+    border: 1px solid #B5B7BA;
+    box-sizing: border-box;
+}
+
+.about_me {
+    font-size: 50px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin: 5px;
+    height: 158px;
+}
+
+
+.about_me a {
+    text-decoration: none;
+    color: #EF5734;
+}
+
+
+
+.Vk {
+    font-size: 50px;
+    padding-left: 40px;
+    margin: 5px;
+    height: 158px;
+}
+
+.Vk a {
+    text-decoration: none;
+    color: #EF5734;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo img {
+    width: 300px;
+    height: 329px;
+
+
+    margin-top: 10%;
+
+}
+
+.name {
+    font-size: 60px;
+    text-align: justify;
+    color: #F6F6F6;
+}
+
+.text {
+    width: 600px;
+    font-size: 50px;
+    text-align: justify;
+    color: #F6F6F6;
+}

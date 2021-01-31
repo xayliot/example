@@ -1,0 +1,188 @@
+.Logo {}
+
+.Logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 2%;
+    margin: 5px;
+}
+
+body {
+    background-image: url(../img/%D1%84%D0%BE%D0%BD.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contener {
+    display: flex;
+    flex-direction: row;
+    background: #1D262D;
+    border: 1px solid #B5B7BA;
+    box-sizing: border-box;
+}
+
+.about_me {
+    font-size: 50px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin: 5px;
+    height: 158px;
+}
+
+
+.about_me a {
+    text-decoration: none;
+    color: #EF5734;
+}
+
+
+
+.Vk {
+    font-size: 50px;
+    padding-left: 40px;
+    margin: 5px;
+     height: 158px;
+}
+
+.Vk a {
+    text-decoration: none;
+    color: #EF5734;
+}
+
+.menu {
+    font-size: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 50px;
+    color: white;
+}
+
+.rezume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 50px;
+    color: white;
+}
+
+.rezume p {
+    float: left;
+    margin-left: 10px;
+}
+
+.activity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 50px;
+    color: white;
+}
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 50px;
+    color: white;
+}
+
+.activity {}
+
+.activity p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 50px;
+    color: white;
+}
+
+.activity img {
+    width: 450px;
+    height: 400px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 50px;
+    color: white;
+    margin: 5%;
+}
+
+.skills p {
+    display: flex;
+    float: left;
+}
+
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 40px;
+    color: white;
+    margin: 5%;
+}
+
+.language ol {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+h1 a {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 50px;
+    color: white;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 40px;
+    color: white;
+    margin: 5%;
+}
+
+.education p {
+    display: flex;
+    float: left;
+    color: white;
+}
+
+.buttom {
+   position: absolute;
+    left: 50%;
+    right: 50%;
+   
+}
+
+
+
+.buttom a {
+    text-align: center;
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
